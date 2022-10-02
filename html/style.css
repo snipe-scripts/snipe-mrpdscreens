@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+.printer-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30vh;
+    height: 20vh;
+    background-color: rgba(45, 49, 57);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 0.5vh;
+}
+
+.printer-input {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15vh;
+    height: 4.5vh;
+    background-color: rgba(45, 49, 57, 0.0);
+    text-decoration: none;
+    color : white;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: "Courier New";
+    font-size: 1.5vh;
+    transition: .2s ease-in-out;
+}
+
+.line-class{
+    position: relative;
+    top: 11vh;
+    width: 25vh;
+}
+
+.printbtn {
+    position: absolute;
+    bottom: 4vh;
+    right: 45%;
+    background-color: greenyellow;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    color:black;
+    padding:0.5vh;
+    font-size: 1vh;
+    border-radius: 0.7rem;
+  }
