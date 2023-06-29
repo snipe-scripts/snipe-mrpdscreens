@@ -1,3 +1,6 @@
+-----------------For support, scripts, and more----------------
+--------------- https://discord.gg/VGYkkAYVv2  -------------
+---------------------------------------------------------------
 if Config.OldQBCore then
     Citizen.CreateThread(function()
         while QBCore == nil do
