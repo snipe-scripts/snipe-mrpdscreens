@@ -1,3 +1,7 @@
+-----------------For support, scripts, and more----------------
+--------------- https://discord.gg/VGYkkAYVv2  -------------
+---------------------------------------------------------------
+
 if Config.QBtarget then
     exports[Config.Target]:AddBoxZone("mrpdscreen", vector3(439.44, -985.89, 34.97), 2.6, 0.4,{
         name="mrpdscreen",
