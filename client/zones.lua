@@ -1,3 +1,6 @@
+-----------------For support, scripts, and more----------------
+--------------- https://discord.gg/VGYkkAYVv2  -------------
+---------------------------------------------------------------
 CreateThread(function ()
     local meetingroom = BoxZone:Create(vector3(445.22, -986.76, 34.97), 11.4, 11.2, {
         name="mrpdmeetingroom",
